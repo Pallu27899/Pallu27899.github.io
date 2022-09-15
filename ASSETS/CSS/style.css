@@ -520,6 +520,18 @@ img {
   width: 60%;
 }
 
+.skills__Communication{
+  width: 50%;
+}
+.skills__Team{
+  width: 70%;
+}
+.skills__DSA{
+  width: 80%;
+}
+.skills__Gith{
+  width:70%
+}
 .skills__express{
   width: 0%;
 }
