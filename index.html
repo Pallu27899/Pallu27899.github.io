@@ -18,7 +18,13 @@
         <link rel="stylesheet" href="ASSETS/CSS/style.css" />
     
         <title>My Portfolio </title>
+        
       </head>
+      <style>
+        .section__title{
+          color: #9CE057;
+        }
+      </style>
 <body>
     <header class="header" id="header">
         <nav class="nav container">
@@ -98,9 +104,14 @@
               <img src="ASSETS/IMAGES/p.png" alt="" class="about__img" />
             
             </div>
-            <div class="home__data">
+            <div class="home__data"> 
+             
               <h1 class="home__title">Hi, I'am Pallavi Bobale</h1>
-              <h3 class="home__subtitle">Web developer</h3>
+              <div class="text-box">
+                <h3><span class="auto-input"></span></h3>
+                
+            </div>
+              <!-- <h3 class="home__subtitle">Web developer</h3> -->
               <p class="home__description">
                 A passionate JAVA Back-End Developer, Dedicated to developing robust applications that interact with the Backend part of web applications.
               <a href="#contact" class="button button--flex">
@@ -119,7 +130,11 @@
       </section>
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
+      <section class="about section  " id="about">
+        <!-- <div  class="text-box1  section__title">
+          <h3 ><span class="auto-input1"></span></h3>
+          
+      </div> -->
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My Introduction</span>
         <div class="about__container container grid">
@@ -154,9 +169,15 @@
         </div>
       </section>
       
-      <!--==================== SKILLS ====================-->
+       <!--==================== SKILLS ====================-->
        <section class="skills section" id="skills">
         <h2 class="section__title">Skills</h2>
+
+        <!-- <div class="text-box1  section__title">
+          <h3><span class="auto-input2"></span></h3>
+          
+      </div> -->
+
         <span class="section__subtitle">My technical level</span>
 
         <div class="skills__container container grid">
@@ -346,7 +367,12 @@
 
        <!--==================== QUALIFICATION ====================-->
        <section class="qualification section" id="qualification">
+
         <h2 class="section__title">Qualification</h2>
+        <!-- <div class="text-box1  section__title">
+          <h3><span class="auto-input3"></span></h3>
+          
+      </div> -->
         <span class="section__subtitle">My personal journey</span>
 
         <div class="qualification__container container">
@@ -450,6 +476,10 @@
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
           <h2 class="section__title">Portfolio</h2>
+          <!-- <div class="text-box1  section__title">
+            <h3><span class="auto-input4"></span></h3>
+            
+        </div> -->
           <span class="section__subtitle">Most recent work</span>
 
           <div class="portfolio__container container swiper mySwiper">
@@ -554,9 +584,112 @@
           </div>
       </section>
 
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+          <h2 class="section__title">Contact Me</h2>
+          <!-- <div class="text-box1  section__title">
+            <h3><span class="auto-input5"></span></h3>
+            
+        </div> -->
+          <span class="section__subtitle">Get in touch</span>
+          <div class="contact__container container grid">
+            <div>
+              <div class="contact__information">
+                <i class="uil uil-phone contact__icon"></i>
+
+                <div>
+                  <h3 class="contact__title">Call Me</h3>
+                  <span class="contact__subtitle">+91 93700-24118</span>
+                </div>
+              </div>
+              <div class="contact__information">
+                <i class="uil uil-envelope contact__icon"></i>
+
+                <div>
+                  <h3 class="contact__title">Email</h3>
+                  <span class="contact__subtitle">bobalepallavi@gmail.com</span>
+                </div>
+              </div>
+              <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+
+                <div>
+                  <h3 class="contact__title">Location</h3>
+                  <span class="contact__subtitle">Maharastra, India</span>
+                </div>
+              </div>
+            </div>
+
+            <form action="" class="contact__form grid">
+              <div class="contact__inputs grid">
+                <div class="contact__content">
+                  <label for="" class="contact__label">Name</label>
+                  <input type="text" class="contact__input">
+                </div>
+                <div class="contact__content">
+                  <label for="" class="contact__label">Email</label>
+                  <input type="email" class="contact__input">
+                </div>
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Project</label>
+                <input type="email" class="contact__input">
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+              </div>
+              <div>
+                <a href="#" class="button button--flex">
+                  Send Message
+                  <i class="uil uil-message button__icon"></i>
+                </a>
+              </div>
+            </form>
+          </div>
+          </section>
+
     </main>
 
-    
+     <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+       <div class="footer__container container grid">
+         <div>
+           <h1 class="footer__title">Pallavi</h1>
+           <span class="footer__subtitle">Web developer</span>
+         </div>
+
+         <ul class="footer__links">
+           <li>
+             <a href="#about" class="footer__link">About me</a>
+           </li>
+           <li>
+             <a href="#portfolio" class="footer__link">Portfolio</a>
+           </li>
+           <li>
+             <a href="#contact" class="footer__link">Contactme</a>
+           </li>
+         </ul>
+         <div class="footer__socials">
+           <a href="https://www.facebook.com/pallavi.boble.1" class="footer__social" target="_blank">
+             <i class="uil uil-facebook-f"></i>
+           </a>
+           <a href="https://instagram.com/pallu_bobale?igshid=YmMyMTA2M2Y=" class="footer__social" target="_blank">
+             <i class="uil uil-instagram"></i>
+           </a>
+           <a href="https://www.linkedin.com/in/pallavi-bobale-80959a1b7" class="footer__social" target="_blank">
+             <i class="uil uil-linkedin-alt"></i>
+           </a>
+           <!-- <i class="uil uil-envelope "></i> -->
+         </div>
+       </div>
+       <p class="footer__copy">&#169; Pallavi. All right reserved</p>
+      </div>
+     </footer>
+
+
     <!--==================== SCROLL TOP ====================-->
     <a href="#home" class="scrollup" id="scroll-up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
@@ -566,6 +699,22 @@
 <script src="ASSETS/JS/swiper-bundle.min.js"></script>
 
 <!--==================== MAIN JS ====================-->
-<script src="ASSETS/JS/main.js"></script>
+<script src="ASSETS/JS/main.js"></script> 
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-input",{
+        strings:["I am Web Developer","I am Believer"],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true
+    }) 
+
+
+</script>
 </body>
 </html>
