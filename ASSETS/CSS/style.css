@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 70; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 90; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
     --first-color-second: hsl(var(--hue-color), 30%, 8%);
@@ -124,7 +124,7 @@ body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  /* background-color: rgb(229, 207, 199); */
+  background-color: rgb(229, 207, 199);
   background-color: var(--body-color);
   color: var(--text-color);
 }
@@ -771,9 +771,9 @@ img {
   row-gap: 3.5rem;
 }
 
-.footer__bg{
+.footer__bg {
   background-color: var(--first-color-second);
-  padding: 2rem 0 3rem;
+  /* padding: 1rem 0 2rem; */
 }
 
 .footer__title{
