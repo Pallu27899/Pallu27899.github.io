@@ -1230,4 +1230,7 @@ img {
           color: #9CE057;
           /* background: none; */
           background: #4a8311;
-        }
+        } 
+ .contact .right {
+          padding-left: 35%;
+        }   
