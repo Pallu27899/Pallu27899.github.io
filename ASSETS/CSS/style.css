@@ -1060,26 +1060,18 @@ img {
   .portfolio__content{
     align-items: center;
   }
-
-  .footer__container{
+ .footer__container{
     grid-template-columns: repeat(3, 1fr);
   }
 
   .footer__bg{
-    padding: 3rem 0 3.5rem;
+    padding: 1rem 2rem ;
   }
 
-  .footer__links{
-    flex-direction: row;
-    column-gap: 2rem;
-  }
-
-  .footer__socials{
-    justify-self: flex-end;
-  }
+ 
 
   .footer__copy{
-    margin-top: 4.5rem;
+    margin-top: 0.5rem;
   }
 
 }
