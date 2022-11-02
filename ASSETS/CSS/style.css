@@ -386,7 +386,12 @@ img {
   border-radius: .5rem;
   font-weight: var(--font-medium);
 }
-
+.btnResume{
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  /* justify-items: center; */
+}
 #btnp {
   width: 95px;
   text-align: center;
@@ -524,30 +529,28 @@ img {
   width: 90%;
 }
 
-.skills__js {
-  width: 75%;
+.skills__java {
+  width: 90%;
+}
+.skills__Gith{
+  width: 70%;
 }
 
-.skills__react {
+.skills__mongoDB{
   width: 80%;
 }
-
-.skills__node {
-  width: 0%;
+.skills__DSA{
+  width: 80%;
 }
-
-.skills__express {
-  width: 0%;
-}
-
-.skills__mango {
-  width: 0%;
-}
-
 .skills__mysql {
-  width: 0%;
+  width: 90%;
 }
-
+.skills__Communication{
+  width: 50%;
+}
+.skills__Team{
+  width: 70%;
+}
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
@@ -660,7 +663,7 @@ img {
 
 .portfolio__img {
   width: 265px;
-  height: 80%;
+  height: 60%;
   /* border-radius: .5rem; */
   margin-top: 10px;
   justify-self: center;
@@ -677,6 +680,7 @@ img {
 
 .portfolio__description-imp {
   font-weight: var(--font-semi-bold);
+ 
 }
 
 .portfolio__button:hover .button__icon {
@@ -922,7 +926,7 @@ img {
     justify-self: center;
   }
 
-  .about__container,
+ 
   .portfolio__content,
   .contact__container,
   .footer__container {
