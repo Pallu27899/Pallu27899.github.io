@@ -1449,6 +1449,7 @@ text.ContributionCalendar-label {
   fill: #ccc;
   font-size: 11px;
 }
+
 .tech-stack{
   display: flex;
   justify-content: center;
@@ -1460,4 +1461,6 @@ text.ContributionCalendar-label {
   padding: 25px;
   border-radius: 35px;
 }
+
+
 
