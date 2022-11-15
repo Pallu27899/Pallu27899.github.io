@@ -1449,4 +1449,15 @@ text.ContributionCalendar-label {
   fill: #ccc;
   font-size: 11px;
 }
+.tech-stack{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech-stack-image{
+  width:200px;
+  padding: 25px;
+  border-radius: 35px;
+}
 
